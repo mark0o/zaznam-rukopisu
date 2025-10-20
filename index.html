@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Word combo lookup</title>
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+US+Modern:wght@100..400&display=swap");
       html {
         background-color: #fff;
         width: 100%;
       }
       body {
+        padding: 0.5em 1em;
         max-width: 400px;
         margin-inline: auto;
       }
@@ -75,7 +76,6 @@
         background-color: rgba(255, 255, 0, 0.747);
       }
     </style>
-    <script defer="" src="customMDP.js"></script>
   </head>
   <body>
     <h2>Vyhledávač kombinací</h2>
@@ -84,8 +84,13 @@
       danou kombinaci písmen v
       <a href="https://github.com/mark0o/zaznam-rukopisu">záznamu rukopisu</a>.
     </p>
-    <input id="combo" type="text" mdp-width="calc(360px - 0.5em)" />
-    <button onclick="results()" style="margin-bottom: 1em">🔍︎</button>
+    <input
+      id="combo"
+      type="text"
+      style="height: 40px; width: 100%; font-size: 40px; margin-bottom: 0.6em"
+      maxlength="2"
+      onkeyup="results()"
+    />
 
     <div id="result"></div>
 
