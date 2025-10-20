@@ -1,1 +1,2 @@
 # Záznam rukopisu
+Tento nástroj slouží k archivaci rukopisu jedince. List (pdf soubor) jednoduše vytisknete a následně vyplníte. Po vyplnění lze už s záznamem dále nakládat dle potřeb, ať už jde o odbornou analýzu či jednoduše sledování změn rukopisu v průběhu času. Pro usnadnění hledání kombinací písmen je také dostupný nástroj který lze otevřít pomocí qr kódu na listu čí zadání webové adresy [mark0o.github.io/zaznam-rukopisu](https://mark0o.github.io/zaznam-rukopisu/)
